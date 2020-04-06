@@ -7,13 +7,6 @@ public class GameOfLife2
     int size;
     int width=10, height = 10;
 
-    boolean paused = false;
-    boolean delete = false;
-
-    float chance = (float) 0.5;
-
-    int fr = 10;
-
     void setup() {
         size=width*height;
         size = width/scale;
@@ -21,14 +14,13 @@ public class GameOfLife2
         cells = new int[size * size];
 
         for(int i = 0; i < cells.length; i ++) {
-            if(random(1) < chance) {
+            if(random(1) < size) {
                 cells[i] = 1;
             } else {
                 cells[i] = 0;
             }
         }
     }
-
 
     int numN(int i, int j) {
         int num = 0;
@@ -86,7 +78,7 @@ public class GameOfLife2
         int wid = 10, hei = 10;
         try
         {
-            new GameOfLife2().setup();
+            new GameOfLife2().numN(wid,hei);
         }
         catch (ArrayIndexOutOfBoundsException e)
         {
