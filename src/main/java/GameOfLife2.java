@@ -78,7 +78,7 @@ public class GameOfLife2
         int wid = 10, hei = 10;
         try
         {
-            new GameOfLife2().numN(wid,hei);
+            new GameOfLife2().setup();
         }
         catch (ArrayIndexOutOfBoundsException e)
         {
