@@ -1,0 +1,3 @@
+# gameofLife
+
+This project was far the trickiest and hardest project, I've had here at umuzi...
