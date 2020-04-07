@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4211a027-c735-4d95-ba54-9a570743142b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GameOfLifeConway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/conwayGameOfLife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameOfLife2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameOfLife2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +44,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Application.GameOfLife2">
+  <component name="RunManager" selected="Application.conwayGameOfLife">
     <configuration name="GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GameOfLife" />
       <module name="gameOfLife.main" />
@@ -53,8 +64,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GameOfLifeConway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameOfLifeConway" />
+      <module name="gameOfLife.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="conwayGameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conwayGameOfLife" />
+      <module name="gameOfLife.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.conwayGameOfLife" />
+        <item itemvalue="Application.GameOfLifeConway" />
         <item itemvalue="Application.GameOfLife2" />
         <item itemvalue="Application.GameOfLife" />
       </list>
@@ -74,21 +101,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="637" height="192" key="GridCell.Tab.0.bottom" timestamp="1586182643700">
+    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1586261324104">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="637" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586182643700" />
-    <state width="637" height="192" key="GridCell.Tab.0.center" timestamp="1586182643700">
+    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1586261324104" />
+    <state width="1323" height="122" key="GridCell.Tab.0.bottom" timestamp="1586263602228">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="637" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586182643700" />
-    <state width="637" height="192" key="GridCell.Tab.0.left" timestamp="1586182643700">
+    <state width="1323" height="122" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586263602228" />
+    <state width="1323" height="122" key="GridCell.Tab.0.center" timestamp="1586263602228">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="637" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586182643700" />
-    <state width="637" height="192" key="GridCell.Tab.0.right" timestamp="1586182643700">
+    <state width="1323" height="122" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586263602228" />
+    <state width="1323" height="122" key="GridCell.Tab.0.left" timestamp="1586263602228">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="637" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586182643700" />
+    <state width="1323" height="122" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586263602228" />
+    <state width="1323" height="122" key="GridCell.Tab.0.right" timestamp="1586263602228">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="122" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586263602228" />
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1586261413016">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586261413016" />
+    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1586261413016">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586261413016" />
+    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1586261413016">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586261413016" />
+    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1586261413016">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586261413016" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1586261332072">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1586261332072" />
   </component>
 </project>
